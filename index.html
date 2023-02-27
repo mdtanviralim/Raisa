@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Kardeliya Jaan</title>
+<style>
+p {
+text-align: center;
+font-size: 32px;
+font-family: Arial, sans-serif;
+}
+img {
+display: block;
+margin: 0 auto;
+width: 40%;
+}
+</style>
+</head>
+<body>
+<p>Will you marry me?</p>
+<img src="./photo_2023-02-28_00-12-09.jpg" alt="GIF animado">
+</body>
+<title>Botões</title>
+<style>
+#botao1 {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#botao2 {
+position: absolute;
+}
+</style>
+</head>
+<body>
+<button id="botao1">Yes!</button>
+<button id="botao2">Never</button>
+<script>
+setInterval(function() {
+var botao2 = document.getElementById('botao2');
+var x = Math.random() * window.innerWidth;
+var y = Math.random() * window.innerHeight;
+botao2.style.left = x + 'px';
+botao2.style.top = y + 'px';
+}, 500);
+</script>
+<script>document.getElementById('botao1').addEventListener('click', function() {
+alert('আসলে অনেক ভাবেই মায়া লেগে গেছে।  ভালোবাসি ভালোবাসতে থাকবো।  হাত দুইটা শক্ত করে ধরে রাখিও।  তোমার কাঁধটা আজীবন লাগবে আমার। একসঙ্গে পথ চলতে চাই বহুদূর। ভালোবাসা অবিরাম জান আমার।  💕😘');
+});
+</script>
+</body>
+</html>
